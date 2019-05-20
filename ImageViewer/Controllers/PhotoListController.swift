@@ -55,6 +55,7 @@ extension PhotoListController: PhotoPickerManagerDelegate {
         manager.dismissPhotoPicker(animated: true) {
             guard let photoFilterController = self.storyboard?.instantiateViewController(withIdentifier: "PhotoFilterController") as? PhotoFilterController else { return }
             photoFilterController.photo = image
+            photoFilterController.managedObjectContext = self.context
             
             let navcontroller = UINavigationController(rootViewController: photoFilterController)
             self.navigationController?.present(navcontroller, animated: true, completion: nil)

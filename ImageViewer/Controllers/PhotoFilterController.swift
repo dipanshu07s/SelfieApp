@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class PhotoFilterController: UIViewController {
     
@@ -22,6 +23,7 @@ class PhotoFilterController: UIViewController {
     
     let eaglContext = EAGLContext(api: .openGLES3)
     let queue = OperationQueue()
+    var managedObjectContext: NSManagedObjectContext?
     
     var photo: UIImage?
     
@@ -65,6 +67,7 @@ class PhotoFilterController: UIViewController {
         photoMetadataController.displayPhoto = photoImageView.image
         photoMetadataController.photo = self.photo
         photoMetadataController.filter = selectedFilter
+        photoMetadataController.context = managedObjectContext
         
         navigationController?.pushViewController(photoMetadataController, animated: true)
     }

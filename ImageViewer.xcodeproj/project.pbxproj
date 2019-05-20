@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		51320A74229279E300A2A35B /* PhotoMetadataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51320A73229279E300A2A35B /* PhotoMetadataController.swift */; };
+		51320A7C229289FE00A2A35B /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51320A7A229289FE00A2A35B /* Tag+CoreDataClass.swift */; };
+		51320A7D229289FE00A2A35B /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51320A7B229289FE00A2A35B /* Tag+CoreDataProperties.swift */; };
 		51433F64228FF798000BB9F0 /* PhotoZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51433F63228FF798000BB9F0 /* PhotoZoomController.swift */; };
 		5147BA59228FCE8200AD7F55 /* PhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147BA58228FCE8200AD7F55 /* PhotoPickerManager.swift */; };
 		5147BA5F228FD92900AD7F55 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147BA5E228FD92900AD7F55 /* Photo.swift */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		51320A73229279E300A2A35B /* PhotoMetadataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMetadataController.swift; sourceTree = "<group>"; };
 		51320A752292856200A2A35B /* ImageViewer 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ImageViewer 2.xcdatamodel"; sourceTree = "<group>"; };
+		51320A7A229289FE00A2A35B /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51320A7B229289FE00A2A35B /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		51433F63228FF798000BB9F0 /* PhotoZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoZoomController.swift; sourceTree = "<group>"; };
 		5147BA58228FCE8200AD7F55 /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
 		5147BA5E228FD92900AD7F55 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			children = (
 				97C520921F7B3E31005642A3 /* CoreDataStack.swift */,
 				97C520991F7B4020005642A3 /* ImageViewer.xcdatamodeld */,
+				51320A7A229289FE00A2A35B /* Tag+CoreDataClass.swift */,
+				51320A7B229289FE00A2A35B /* Tag+CoreDataProperties.swift */,
 				5147BA5E228FD92900AD7F55 /* Photo.swift */,
 			);
 			path = Models;
@@ -230,6 +236,8 @@
 				5147BA63228FE13900AD7F55 /* PhotoViewerController.swift in Sources */,
 				5147BA5F228FD92900AD7F55 /* Photo.swift in Sources */,
 				515A1C6822915C54006DD937 /* UIImge+Resizing.swift in Sources */,
+				51320A7C229289FE00A2A35B /* Tag+CoreDataClass.swift in Sources */,
+				51320A7D229289FE00A2A35B /* Tag+CoreDataProperties.swift in Sources */,
 				97C5209F1F7B40D4005642A3 /* PhotosFetchedResultsController.swift in Sources */,
 				515A1C6022913ABE006DD937 /* PhotoFilters.swift in Sources */,
 				5147BA61228FE03E00AD7F55 /* PhotoPageController.swift in Sources */,
